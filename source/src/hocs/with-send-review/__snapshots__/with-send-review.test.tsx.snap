@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<withSendReview/>:  App State:  should render LOADING correctly 1`] = `<section />`;
+
+exports[`<withSendReview/>:  App State:  should render READY correctly 1`] = `<section />`;
+
+exports[`<withSendReview/>:  App State:  should render SENT correctly 1`] = `<section />`;

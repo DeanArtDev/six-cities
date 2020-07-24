@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PlacesList/>:  should render PlacesClass.CITIES correctly 1`] = `ReactWrapper {}`;
+
+exports[`<PlacesList/>:  should render PlacesClass.NEAR correctly 1`] = `ReactWrapper {}`;

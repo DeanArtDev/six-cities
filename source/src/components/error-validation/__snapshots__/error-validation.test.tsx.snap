@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorValidation/>:  should render correctly 1`] = `
+<section
+  className="error-validation"
+>
+  <h3
+    className="visually-hidden"
+  >
+    The error of login or password
+  </h3>
+  <p>
+    error
+  </p>
+</section>
+`;

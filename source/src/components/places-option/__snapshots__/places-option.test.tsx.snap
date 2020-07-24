@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PlacesOption/>:  should render closed 1`] = `
+<ul
+  className="places__options places__options--custom"
+  onClick={[Function]}
+>
+  <li
+    className="places__option"
+    data-sort="Popular"
+    tabIndex={0}
+  >
+    Popular
+  </li>
+  <li
+    className="places__option"
+    data-sort="Price: low to high"
+    tabIndex={0}
+  >
+    Price: low to high
+  </li>
+  <li
+    className="places__option"
+    data-sort="Price: high to low"
+    tabIndex={0}
+  >
+    Price: high to low
+  </li>
+  <li
+    className="places__option"
+    data-sort="Top rated first"
+    tabIndex={0}
+  >
+    Top rated first
+  </li>
+</ul>
+`;
+
+exports[`<PlacesOption/>:  should render opened 1`] = `
+<ul
+  className="places__options places__options--custom places__options--opened"
+  onClick={[Function]}
+>
+  <li
+    className="places__option"
+    data-sort="Popular"
+    tabIndex={0}
+  >
+    Popular
+  </li>
+  <li
+    className="places__option"
+    data-sort="Price: low to high"
+    tabIndex={0}
+  >
+    Price: low to high
+  </li>
+  <li
+    className="places__option"
+    data-sort="Price: high to low"
+    tabIndex={0}
+  >
+    Price: high to low
+  </li>
+  <li
+    className="places__option"
+    data-sort="Top rated first"
+    tabIndex={0}
+  >
+    Top rated first
+  </li>
+</ul>
+`;

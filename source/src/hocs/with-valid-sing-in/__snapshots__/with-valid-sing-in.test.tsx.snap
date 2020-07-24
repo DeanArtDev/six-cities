@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<withValidSingIn/>:  App State:  should render LOADING correctly 1`] = `<section />`;
+
+exports[`<withValidSingIn/>:  App State:  should render READY correctly 1`] = `<section />`;
+
+exports[`<withValidSingIn/>:  Errors:  should render error correctly 1`] = `<section />`;

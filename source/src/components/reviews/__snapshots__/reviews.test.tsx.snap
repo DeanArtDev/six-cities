@@ -1,0 +1,1531 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Reviews/>:  App Store:  should render LOADING state currently 1`] = `
+<section
+  className="property__reviews reviews"
+>
+  <h2
+    className="reviews__title"
+  >
+    Reviews · 
+    <span
+      className="reviews__amount"
+    >
+      2
+    </span>
+  </h2>
+  <ul
+    className="reviews__list"
+  >
+    <li
+      className="reviews__item"
+    >
+      <div
+        className="reviews__user user"
+      >
+        <div
+          className="reviews__avatar-wrapper user__avatar-wrapper"
+        >
+          <img
+            alt="Reviews avatar"
+            className="reviews__avatar user__avatar"
+            height="54"
+            src="https://htmlacademy-react-3.appspot.com/six-cities/static/avatar/7.jpg"
+            width="54"
+          />
+        </div>
+        <span
+          className="reviews__user-name"
+        >
+          Mollie
+        </span>
+      </div>
+      <div
+        className="reviews__info"
+      >
+        <div
+          className="reviews__rating rating"
+        >
+          <div
+            className="reviews__stars rating__stars"
+          >
+            <span
+              style={
+                Object {
+                  "width": "60%",
+                }
+              }
+            />
+            <span
+              className="visually-hidden"
+            >
+              Rating
+            </span>
+          </div>
+        </div>
+        <p
+          className="reviews__text"
+        >
+          We loved it so much, the house, the veiw, the location
+        </p>
+        <time
+          className="reviews__time"
+          dateTime="2020-02-13"
+        >
+          February 13 2020
+        </time>
+      </div>
+    </li>
+    <li
+      className="reviews__item"
+    >
+      <div
+        className="reviews__user user"
+      >
+        <div
+          className="reviews__avatar-wrapper user__avatar-wrapper"
+        >
+          <img
+            alt="Reviews avatar"
+            className="reviews__avatar user__avatar"
+            height="54"
+            src="https://htmlacademy-react-3.appspot.com/six-cities/static/avatar/7.jpg"
+            width="54"
+          />
+        </div>
+        <span
+          className="reviews__user-name"
+        >
+          Dean
+        </span>
+      </div>
+      <div
+        className="reviews__info"
+      >
+        <div
+          className="reviews__rating rating"
+        >
+          <div
+            className="reviews__stars rating__stars"
+          >
+            <span
+              style={
+                Object {
+                  "width": "20%",
+                }
+              }
+            />
+            <span
+              className="visually-hidden"
+            >
+              Rating
+            </span>
+          </div>
+        </div>
+        <p
+          className="reviews__text"
+        >
+          We loved it so much, the house, the veiw, the location
+        </p>
+        <time
+          className="reviews__time"
+          dateTime="2020-02-13"
+        >
+          February 13 2020
+        </time>
+      </div>
+    </li>
+  </ul>
+  <form
+    action="#"
+    className="reviews__form form"
+    method="post"
+    onSubmit={[Function]}
+  >
+    <label
+      className="reviews__label form__label"
+      htmlFor="review"
+    >
+      Your review
+    </label>
+    <div
+      className="reviews__rating-form form__rating"
+    >
+      <input
+        className="form__rating-input visually-hidden"
+        disabled={true}
+        id="5-stars"
+        name="rating"
+        onChange={[Function]}
+        type="radio"
+        value="5"
+      />
+      <label
+        className="reviews__rating-label form__rating-label"
+        htmlFor="5-stars"
+        title="perfect"
+      >
+        <svg
+          className="form__star-image"
+          height="33"
+          width="37"
+        >
+          <use
+            xlinkHref="#icon-star"
+          />
+        </svg>
+      </label>
+      <input
+        className="form__rating-input visually-hidden"
+        disabled={true}
+        id="4-stars"
+        name="rating"
+        onChange={[Function]}
+        type="radio"
+        value="4"
+      />
+      <label
+        className="reviews__rating-label form__rating-label"
+        htmlFor="4-stars"
+        title="good"
+      >
+        <svg
+          className="form__star-image"
+          height="33"
+          width="37"
+        >
+          <use
+            xlinkHref="#icon-star"
+          />
+        </svg>
+      </label>
+      <input
+        className="form__rating-input visually-hidden"
+        disabled={true}
+        id="3-stars"
+        name="rating"
+        onChange={[Function]}
+        type="radio"
+        value="3"
+      />
+      <label
+        className="reviews__rating-label form__rating-label"
+        htmlFor="3-stars"
+        title="not bad"
+      >
+        <svg
+          className="form__star-image"
+          height="33"
+          width="37"
+        >
+          <use
+            xlinkHref="#icon-star"
+          />
+        </svg>
+      </label>
+      <input
+        className="form__rating-input visually-hidden"
+        disabled={true}
+        id="2-stars"
+        name="rating"
+        onChange={[Function]}
+        type="radio"
+        value="2"
+      />
+      <label
+        className="reviews__rating-label form__rating-label"
+        htmlFor="2-stars"
+        title="badly"
+      >
+        <svg
+          className="form__star-image"
+          height="33"
+          width="37"
+        >
+          <use
+            xlinkHref="#icon-star"
+          />
+        </svg>
+      </label>
+      <input
+        className="form__rating-input visually-hidden"
+        disabled={true}
+        id="1-star"
+        name="rating"
+        onChange={[Function]}
+        type="radio"
+        value="1"
+      />
+      <label
+        className="reviews__rating-label form__rating-label"
+        htmlFor="1-star"
+        title="terribly"
+      >
+        <svg
+          className="form__star-image"
+          height="33"
+          width="37"
+        >
+          <use
+            xlinkHref="#icon-star"
+          />
+        </svg>
+      </label>
+    </div>
+    <textarea
+      className="reviews__textarea form__textarea"
+      disabled={true}
+      id="review"
+      name="review"
+      onChange={[Function]}
+      placeholder="Tell how was your stay, what you like and what can be improved"
+      value="e"
+    />
+    <div
+      className="reviews__button-wrapper"
+    >
+      <p
+        className="reviews__help"
+      >
+        To submit review please make sure to set
+        <span
+          className="reviews__star"
+        >
+          rating
+        </span>
+        and describe your stay with at least
+        <b
+          className="reviews__text-amount"
+        >
+          50 characters
+        </b>
+        .
+      </p>
+      <button
+        className="reviews__submit form__submit button"
+        disabled={true}
+        type="submit"
+      >
+        Loading...
+      </button>
+    </div>
+  </form>
+</section>
+`;
+
+exports[`<Reviews/>:  App Store:  should render READY state currently 1`] = `
+<section
+  className="property__reviews reviews"
+>
+  <h2
+    className="reviews__title"
+  >
+    Reviews · 
+    <span
+      className="reviews__amount"
+    >
+      2
+    </span>
+  </h2>
+  <ul
+    className="reviews__list"
+  >
+    <li
+      className="reviews__item"
+    >
+      <div
+        className="reviews__user user"
+      >
+        <div
+          className="reviews__avatar-wrapper user__avatar-wrapper"
+        >
+          <img
+            alt="Reviews avatar"
+            className="reviews__avatar user__avatar"
+            height="54"
+            src="https://htmlacademy-react-3.appspot.com/six-cities/static/avatar/7.jpg"
+            width="54"
+          />
+        </div>
+        <span
+          className="reviews__user-name"
+        >
+          Mollie
+        </span>
+      </div>
+      <div
+        className="reviews__info"
+      >
+        <div
+          className="reviews__rating rating"
+        >
+          <div
+            className="reviews__stars rating__stars"
+          >
+            <span
+              style={
+                Object {
+                  "width": "60%",
+                }
+              }
+            />
+            <span
+              className="visually-hidden"
+            >
+              Rating
+            </span>
+          </div>
+        </div>
+        <p
+          className="reviews__text"
+        >
+          We loved it so much, the house, the veiw, the location
+        </p>
+        <time
+          className="reviews__time"
+          dateTime="2020-02-13"
+        >
+          February 13 2020
+        </time>
+      </div>
+    </li>
+    <li
+      className="reviews__item"
+    >
+      <div
+        className="reviews__user user"
+      >
+        <div
+          className="reviews__avatar-wrapper user__avatar-wrapper"
+        >
+          <img
+            alt="Reviews avatar"
+            className="reviews__avatar user__avatar"
+            height="54"
+            src="https://htmlacademy-react-3.appspot.com/six-cities/static/avatar/7.jpg"
+            width="54"
+          />
+        </div>
+        <span
+          className="reviews__user-name"
+        >
+          Dean
+        </span>
+      </div>
+      <div
+        className="reviews__info"
+      >
+        <div
+          className="reviews__rating rating"
+        >
+          <div
+            className="reviews__stars rating__stars"
+          >
+            <span
+              style={
+                Object {
+                  "width": "20%",
+                }
+              }
+            />
+            <span
+              className="visually-hidden"
+            >
+              Rating
+            </span>
+          </div>
+        </div>
+        <p
+          className="reviews__text"
+        >
+          We loved it so much, the house, the veiw, the location
+        </p>
+        <time
+          className="reviews__time"
+          dateTime="2020-02-13"
+        >
+          February 13 2020
+        </time>
+      </div>
+    </li>
+  </ul>
+  <form
+    action="#"
+    className="reviews__form form"
+    method="post"
+    onSubmit={[Function]}
+  >
+    <label
+      className="reviews__label form__label"
+      htmlFor="review"
+    >
+      Your review
+    </label>
+    <div
+      className="reviews__rating-form form__rating"
+    >
+      <input
+        className="form__rating-input visually-hidden"
+        disabled={false}
+        id="5-stars"
+        name="rating"
+        onChange={[Function]}
+        type="radio"
+        value="5"
+      />
+      <label
+        className="reviews__rating-label form__rating-label"
+        htmlFor="5-stars"
+        title="perfect"
+      >
+        <svg
+          className="form__star-image"
+          height="33"
+          width="37"
+        >
+          <use
+            xlinkHref="#icon-star"
+          />
+        </svg>
+      </label>
+      <input
+        className="form__rating-input visually-hidden"
+        disabled={false}
+        id="4-stars"
+        name="rating"
+        onChange={[Function]}
+        type="radio"
+        value="4"
+      />
+      <label
+        className="reviews__rating-label form__rating-label"
+        htmlFor="4-stars"
+        title="good"
+      >
+        <svg
+          className="form__star-image"
+          height="33"
+          width="37"
+        >
+          <use
+            xlinkHref="#icon-star"
+          />
+        </svg>
+      </label>
+      <input
+        className="form__rating-input visually-hidden"
+        disabled={false}
+        id="3-stars"
+        name="rating"
+        onChange={[Function]}
+        type="radio"
+        value="3"
+      />
+      <label
+        className="reviews__rating-label form__rating-label"
+        htmlFor="3-stars"
+        title="not bad"
+      >
+        <svg
+          className="form__star-image"
+          height="33"
+          width="37"
+        >
+          <use
+            xlinkHref="#icon-star"
+          />
+        </svg>
+      </label>
+      <input
+        className="form__rating-input visually-hidden"
+        disabled={false}
+        id="2-stars"
+        name="rating"
+        onChange={[Function]}
+        type="radio"
+        value="2"
+      />
+      <label
+        className="reviews__rating-label form__rating-label"
+        htmlFor="2-stars"
+        title="badly"
+      >
+        <svg
+          className="form__star-image"
+          height="33"
+          width="37"
+        >
+          <use
+            xlinkHref="#icon-star"
+          />
+        </svg>
+      </label>
+      <input
+        className="form__rating-input visually-hidden"
+        disabled={false}
+        id="1-star"
+        name="rating"
+        onChange={[Function]}
+        type="radio"
+        value="1"
+      />
+      <label
+        className="reviews__rating-label form__rating-label"
+        htmlFor="1-star"
+        title="terribly"
+      >
+        <svg
+          className="form__star-image"
+          height="33"
+          width="37"
+        >
+          <use
+            xlinkHref="#icon-star"
+          />
+        </svg>
+      </label>
+    </div>
+    <textarea
+      className="reviews__textarea form__textarea"
+      disabled={false}
+      id="review"
+      name="review"
+      onChange={[Function]}
+      placeholder="Tell how was your stay, what you like and what can be improved"
+      value="e"
+    />
+    <div
+      className="reviews__button-wrapper"
+    >
+      <p
+        className="reviews__help"
+      >
+        To submit review please make sure to set
+        <span
+          className="reviews__star"
+        >
+          rating
+        </span>
+        and describe your stay with at least
+        <b
+          className="reviews__text-amount"
+        >
+          50 characters
+        </b>
+        .
+      </p>
+      <button
+        className="reviews__submit form__submit button"
+        disabled={false}
+        type="submit"
+      >
+        Submit
+      </button>
+    </div>
+  </form>
+</section>
+`;
+
+exports[`<Reviews/>:  App Store:  should render SEND state currently 1`] = `
+<section
+  className="property__reviews reviews"
+>
+  <h2
+    className="reviews__title"
+  >
+    Reviews · 
+    <span
+      className="reviews__amount"
+    >
+      2
+    </span>
+  </h2>
+  <ul
+    className="reviews__list"
+  >
+    <li
+      className="reviews__item"
+    >
+      <div
+        className="reviews__user user"
+      >
+        <div
+          className="reviews__avatar-wrapper user__avatar-wrapper"
+        >
+          <img
+            alt="Reviews avatar"
+            className="reviews__avatar user__avatar"
+            height="54"
+            src="https://htmlacademy-react-3.appspot.com/six-cities/static/avatar/7.jpg"
+            width="54"
+          />
+        </div>
+        <span
+          className="reviews__user-name"
+        >
+          Mollie
+        </span>
+      </div>
+      <div
+        className="reviews__info"
+      >
+        <div
+          className="reviews__rating rating"
+        >
+          <div
+            className="reviews__stars rating__stars"
+          >
+            <span
+              style={
+                Object {
+                  "width": "60%",
+                }
+              }
+            />
+            <span
+              className="visually-hidden"
+            >
+              Rating
+            </span>
+          </div>
+        </div>
+        <p
+          className="reviews__text"
+        >
+          We loved it so much, the house, the veiw, the location
+        </p>
+        <time
+          className="reviews__time"
+          dateTime="2020-02-13"
+        >
+          February 13 2020
+        </time>
+      </div>
+    </li>
+    <li
+      className="reviews__item"
+    >
+      <div
+        className="reviews__user user"
+      >
+        <div
+          className="reviews__avatar-wrapper user__avatar-wrapper"
+        >
+          <img
+            alt="Reviews avatar"
+            className="reviews__avatar user__avatar"
+            height="54"
+            src="https://htmlacademy-react-3.appspot.com/six-cities/static/avatar/7.jpg"
+            width="54"
+          />
+        </div>
+        <span
+          className="reviews__user-name"
+        >
+          Dean
+        </span>
+      </div>
+      <div
+        className="reviews__info"
+      >
+        <div
+          className="reviews__rating rating"
+        >
+          <div
+            className="reviews__stars rating__stars"
+          >
+            <span
+              style={
+                Object {
+                  "width": "20%",
+                }
+              }
+            />
+            <span
+              className="visually-hidden"
+            >
+              Rating
+            </span>
+          </div>
+        </div>
+        <p
+          className="reviews__text"
+        >
+          We loved it so much, the house, the veiw, the location
+        </p>
+        <time
+          className="reviews__time"
+          dateTime="2020-02-13"
+        >
+          February 13 2020
+        </time>
+      </div>
+    </li>
+  </ul>
+  <form
+    action="#"
+    className="reviews__form form"
+    method="post"
+    onSubmit={[Function]}
+  >
+    <label
+      className="reviews__label form__label"
+      htmlFor="review"
+    >
+      Your review
+    </label>
+    <div
+      className="reviews__rating-form form__rating"
+    >
+      <input
+        className="form__rating-input visually-hidden"
+        disabled={false}
+        id="5-stars"
+        name="rating"
+        onChange={[Function]}
+        type="radio"
+        value="5"
+      />
+      <label
+        className="reviews__rating-label form__rating-label"
+        htmlFor="5-stars"
+        title="perfect"
+      >
+        <svg
+          className="form__star-image"
+          height="33"
+          width="37"
+        >
+          <use
+            xlinkHref="#icon-star"
+          />
+        </svg>
+      </label>
+      <input
+        className="form__rating-input visually-hidden"
+        disabled={false}
+        id="4-stars"
+        name="rating"
+        onChange={[Function]}
+        type="radio"
+        value="4"
+      />
+      <label
+        className="reviews__rating-label form__rating-label"
+        htmlFor="4-stars"
+        title="good"
+      >
+        <svg
+          className="form__star-image"
+          height="33"
+          width="37"
+        >
+          <use
+            xlinkHref="#icon-star"
+          />
+        </svg>
+      </label>
+      <input
+        className="form__rating-input visually-hidden"
+        disabled={false}
+        id="3-stars"
+        name="rating"
+        onChange={[Function]}
+        type="radio"
+        value="3"
+      />
+      <label
+        className="reviews__rating-label form__rating-label"
+        htmlFor="3-stars"
+        title="not bad"
+      >
+        <svg
+          className="form__star-image"
+          height="33"
+          width="37"
+        >
+          <use
+            xlinkHref="#icon-star"
+          />
+        </svg>
+      </label>
+      <input
+        className="form__rating-input visually-hidden"
+        disabled={false}
+        id="2-stars"
+        name="rating"
+        onChange={[Function]}
+        type="radio"
+        value="2"
+      />
+      <label
+        className="reviews__rating-label form__rating-label"
+        htmlFor="2-stars"
+        title="badly"
+      >
+        <svg
+          className="form__star-image"
+          height="33"
+          width="37"
+        >
+          <use
+            xlinkHref="#icon-star"
+          />
+        </svg>
+      </label>
+      <input
+        className="form__rating-input visually-hidden"
+        disabled={false}
+        id="1-star"
+        name="rating"
+        onChange={[Function]}
+        type="radio"
+        value="1"
+      />
+      <label
+        className="reviews__rating-label form__rating-label"
+        htmlFor="1-star"
+        title="terribly"
+      >
+        <svg
+          className="form__star-image"
+          height="33"
+          width="37"
+        >
+          <use
+            xlinkHref="#icon-star"
+          />
+        </svg>
+      </label>
+    </div>
+    <textarea
+      className="reviews__textarea form__textarea"
+      disabled={false}
+      id="review"
+      name="review"
+      onChange={[Function]}
+      placeholder="Tell how was your stay, what you like and what can be improved"
+      value="e"
+    />
+    <div
+      className="reviews__button-wrapper"
+    >
+      <p
+        className="reviews__help"
+      >
+        To submit review please make sure to set
+        <span
+          className="reviews__star"
+        >
+          rating
+        </span>
+        and describe your stay with at least
+        <b
+          className="reviews__text-amount"
+        >
+          50 characters
+        </b>
+        .
+      </p>
+      <button
+        className="reviews__submit form__submit button"
+        disabled={true}
+        type="submit"
+      >
+        Submit
+      </button>
+    </div>
+  </form>
+</section>
+`;
+
+exports[`<Reviews/>:  Authorization:  should render AUTH currently 1`] = `
+<section
+  className="property__reviews reviews"
+>
+  <h2
+    className="reviews__title"
+  >
+    Reviews · 
+    <span
+      className="reviews__amount"
+    >
+      2
+    </span>
+  </h2>
+  <ul
+    className="reviews__list"
+  >
+    <li
+      className="reviews__item"
+    >
+      <div
+        className="reviews__user user"
+      >
+        <div
+          className="reviews__avatar-wrapper user__avatar-wrapper"
+        >
+          <img
+            alt="Reviews avatar"
+            className="reviews__avatar user__avatar"
+            height="54"
+            src="https://htmlacademy-react-3.appspot.com/six-cities/static/avatar/7.jpg"
+            width="54"
+          />
+        </div>
+        <span
+          className="reviews__user-name"
+        >
+          Mollie
+        </span>
+      </div>
+      <div
+        className="reviews__info"
+      >
+        <div
+          className="reviews__rating rating"
+        >
+          <div
+            className="reviews__stars rating__stars"
+          >
+            <span
+              style={
+                Object {
+                  "width": "60%",
+                }
+              }
+            />
+            <span
+              className="visually-hidden"
+            >
+              Rating
+            </span>
+          </div>
+        </div>
+        <p
+          className="reviews__text"
+        >
+          We loved it so much, the house, the veiw, the location
+        </p>
+        <time
+          className="reviews__time"
+          dateTime="2020-02-13"
+        >
+          February 13 2020
+        </time>
+      </div>
+    </li>
+    <li
+      className="reviews__item"
+    >
+      <div
+        className="reviews__user user"
+      >
+        <div
+          className="reviews__avatar-wrapper user__avatar-wrapper"
+        >
+          <img
+            alt="Reviews avatar"
+            className="reviews__avatar user__avatar"
+            height="54"
+            src="https://htmlacademy-react-3.appspot.com/six-cities/static/avatar/7.jpg"
+            width="54"
+          />
+        </div>
+        <span
+          className="reviews__user-name"
+        >
+          Dean
+        </span>
+      </div>
+      <div
+        className="reviews__info"
+      >
+        <div
+          className="reviews__rating rating"
+        >
+          <div
+            className="reviews__stars rating__stars"
+          >
+            <span
+              style={
+                Object {
+                  "width": "20%",
+                }
+              }
+            />
+            <span
+              className="visually-hidden"
+            >
+              Rating
+            </span>
+          </div>
+        </div>
+        <p
+          className="reviews__text"
+        >
+          We loved it so much, the house, the veiw, the location
+        </p>
+        <time
+          className="reviews__time"
+          dateTime="2020-02-13"
+        >
+          February 13 2020
+        </time>
+      </div>
+    </li>
+  </ul>
+</section>
+`;
+
+exports[`<Reviews/>:  Authorization:  should render NOT AUTH currently 1`] = `
+<section
+  className="property__reviews reviews"
+>
+  <h2
+    className="reviews__title"
+  >
+    Reviews · 
+    <span
+      className="reviews__amount"
+    >
+      2
+    </span>
+  </h2>
+  <ul
+    className="reviews__list"
+  >
+    <li
+      className="reviews__item"
+    >
+      <div
+        className="reviews__user user"
+      >
+        <div
+          className="reviews__avatar-wrapper user__avatar-wrapper"
+        >
+          <img
+            alt="Reviews avatar"
+            className="reviews__avatar user__avatar"
+            height="54"
+            src="https://htmlacademy-react-3.appspot.com/six-cities/static/avatar/7.jpg"
+            width="54"
+          />
+        </div>
+        <span
+          className="reviews__user-name"
+        >
+          Mollie
+        </span>
+      </div>
+      <div
+        className="reviews__info"
+      >
+        <div
+          className="reviews__rating rating"
+        >
+          <div
+            className="reviews__stars rating__stars"
+          >
+            <span
+              style={
+                Object {
+                  "width": "60%",
+                }
+              }
+            />
+            <span
+              className="visually-hidden"
+            >
+              Rating
+            </span>
+          </div>
+        </div>
+        <p
+          className="reviews__text"
+        >
+          We loved it so much, the house, the veiw, the location
+        </p>
+        <time
+          className="reviews__time"
+          dateTime="2020-02-13"
+        >
+          February 13 2020
+        </time>
+      </div>
+    </li>
+    <li
+      className="reviews__item"
+    >
+      <div
+        className="reviews__user user"
+      >
+        <div
+          className="reviews__avatar-wrapper user__avatar-wrapper"
+        >
+          <img
+            alt="Reviews avatar"
+            className="reviews__avatar user__avatar"
+            height="54"
+            src="https://htmlacademy-react-3.appspot.com/six-cities/static/avatar/7.jpg"
+            width="54"
+          />
+        </div>
+        <span
+          className="reviews__user-name"
+        >
+          Dean
+        </span>
+      </div>
+      <div
+        className="reviews__info"
+      >
+        <div
+          className="reviews__rating rating"
+        >
+          <div
+            className="reviews__stars rating__stars"
+          >
+            <span
+              style={
+                Object {
+                  "width": "20%",
+                }
+              }
+            />
+            <span
+              className="visually-hidden"
+            >
+              Rating
+            </span>
+          </div>
+        </div>
+        <p
+          className="reviews__text"
+        >
+          We loved it so much, the house, the veiw, the location
+        </p>
+        <time
+          className="reviews__time"
+          dateTime="2020-02-13"
+        >
+          February 13 2020
+        </time>
+      </div>
+    </li>
+  </ul>
+</section>
+`;
+
+exports[`<Reviews/>:  Errors:  should render Error currently 1`] = `
+<section
+  className="property__reviews reviews"
+>
+  <h2
+    className="reviews__title"
+  >
+    Reviews · 
+    <span
+      className="reviews__amount"
+    >
+      2
+    </span>
+  </h2>
+  <ul
+    className="reviews__list"
+  >
+    <li
+      className="reviews__item"
+    >
+      <div
+        className="reviews__user user"
+      >
+        <div
+          className="reviews__avatar-wrapper user__avatar-wrapper"
+        >
+          <img
+            alt="Reviews avatar"
+            className="reviews__avatar user__avatar"
+            height="54"
+            src="https://htmlacademy-react-3.appspot.com/six-cities/static/avatar/7.jpg"
+            width="54"
+          />
+        </div>
+        <span
+          className="reviews__user-name"
+        >
+          Mollie
+        </span>
+      </div>
+      <div
+        className="reviews__info"
+      >
+        <div
+          className="reviews__rating rating"
+        >
+          <div
+            className="reviews__stars rating__stars"
+          >
+            <span
+              style={
+                Object {
+                  "width": "60%",
+                }
+              }
+            />
+            <span
+              className="visually-hidden"
+            >
+              Rating
+            </span>
+          </div>
+        </div>
+        <p
+          className="reviews__text"
+        >
+          We loved it so much, the house, the veiw, the location
+        </p>
+        <time
+          className="reviews__time"
+          dateTime="2020-02-13"
+        >
+          February 13 2020
+        </time>
+      </div>
+    </li>
+    <li
+      className="reviews__item"
+    >
+      <div
+        className="reviews__user user"
+      >
+        <div
+          className="reviews__avatar-wrapper user__avatar-wrapper"
+        >
+          <img
+            alt="Reviews avatar"
+            className="reviews__avatar user__avatar"
+            height="54"
+            src="https://htmlacademy-react-3.appspot.com/six-cities/static/avatar/7.jpg"
+            width="54"
+          />
+        </div>
+        <span
+          className="reviews__user-name"
+        >
+          Dean
+        </span>
+      </div>
+      <div
+        className="reviews__info"
+      >
+        <div
+          className="reviews__rating rating"
+        >
+          <div
+            className="reviews__stars rating__stars"
+          >
+            <span
+              style={
+                Object {
+                  "width": "20%",
+                }
+              }
+            />
+            <span
+              className="visually-hidden"
+            >
+              Rating
+            </span>
+          </div>
+        </div>
+        <p
+          className="reviews__text"
+        >
+          We loved it so much, the house, the veiw, the location
+        </p>
+        <time
+          className="reviews__time"
+          dateTime="2020-02-13"
+        >
+          February 13 2020
+        </time>
+      </div>
+    </li>
+  </ul>
+  <form
+    action="#"
+    className="reviews__form form"
+    method="post"
+    onSubmit={[Function]}
+  >
+    <label
+      className="reviews__label form__label error-message"
+      htmlFor="review"
+    >
+      error
+    </label>
+    <div
+      className="reviews__rating-form form__rating"
+    >
+      <input
+        className="form__rating-input visually-hidden"
+        disabled={false}
+        id="5-stars"
+        name="rating"
+        onChange={[Function]}
+        type="radio"
+        value="5"
+      />
+      <label
+        className="reviews__rating-label form__rating-label"
+        htmlFor="5-stars"
+        title="perfect"
+      >
+        <svg
+          className="form__star-image"
+          height="33"
+          width="37"
+        >
+          <use
+            xlinkHref="#icon-star"
+          />
+        </svg>
+      </label>
+      <input
+        className="form__rating-input visually-hidden"
+        disabled={false}
+        id="4-stars"
+        name="rating"
+        onChange={[Function]}
+        type="radio"
+        value="4"
+      />
+      <label
+        className="reviews__rating-label form__rating-label"
+        htmlFor="4-stars"
+        title="good"
+      >
+        <svg
+          className="form__star-image"
+          height="33"
+          width="37"
+        >
+          <use
+            xlinkHref="#icon-star"
+          />
+        </svg>
+      </label>
+      <input
+        className="form__rating-input visually-hidden"
+        disabled={false}
+        id="3-stars"
+        name="rating"
+        onChange={[Function]}
+        type="radio"
+        value="3"
+      />
+      <label
+        className="reviews__rating-label form__rating-label"
+        htmlFor="3-stars"
+        title="not bad"
+      >
+        <svg
+          className="form__star-image"
+          height="33"
+          width="37"
+        >
+          <use
+            xlinkHref="#icon-star"
+          />
+        </svg>
+      </label>
+      <input
+        className="form__rating-input visually-hidden"
+        disabled={false}
+        id="2-stars"
+        name="rating"
+        onChange={[Function]}
+        type="radio"
+        value="2"
+      />
+      <label
+        className="reviews__rating-label form__rating-label"
+        htmlFor="2-stars"
+        title="badly"
+      >
+        <svg
+          className="form__star-image"
+          height="33"
+          width="37"
+        >
+          <use
+            xlinkHref="#icon-star"
+          />
+        </svg>
+      </label>
+      <input
+        className="form__rating-input visually-hidden"
+        disabled={false}
+        id="1-star"
+        name="rating"
+        onChange={[Function]}
+        type="radio"
+        value="1"
+      />
+      <label
+        className="reviews__rating-label form__rating-label"
+        htmlFor="1-star"
+        title="terribly"
+      >
+        <svg
+          className="form__star-image"
+          height="33"
+          width="37"
+        >
+          <use
+            xlinkHref="#icon-star"
+          />
+        </svg>
+      </label>
+    </div>
+    <textarea
+      className="reviews__textarea form__textarea"
+      disabled={false}
+      id="review"
+      name="review"
+      onChange={[Function]}
+      placeholder="Tell how was your stay, what you like and what can be improved"
+      value="e"
+    />
+    <div
+      className="reviews__button-wrapper"
+    >
+      <p
+        className="reviews__help"
+      >
+        To submit review please make sure to set
+        <span
+          className="reviews__star"
+        >
+          rating
+        </span>
+        and describe your stay with at least
+        <b
+          className="reviews__text-amount"
+        >
+          50 characters
+        </b>
+        .
+      </p>
+      <button
+        className="reviews__submit form__submit button"
+        disabled={false}
+        type="submit"
+      >
+        Submit
+      </button>
+    </div>
+  </form>
+</section>
+`;
